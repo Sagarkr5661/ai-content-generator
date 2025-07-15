@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# ✨ AI Content Generator
 
-## Project info
+An AI-powered content generator built with modern frontend tools — **TypeScript**, **Vite**, and **Tailwind CSS**. This application enables users to generate structured, creative content through a minimal and responsive user interface.
 
-**URL**: https://lovable.dev/projects/a433d903-f5e4-412c-8a7b-aed659e6b8ee
+🌐 **Live Demo**: [ai-content-generator-alpha-sable.vercel.app](https://ai-content-generator-alpha-sable.vercel.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- ⚡ Blazing fast app with [Vite](https://vitejs.dev/)
+- 💅 Fully styled using [Tailwind CSS](https://tailwindcss.com/)
+- 🧠 Generate AI-based content using integrated APIs (e.g., OpenAI)
+- 🧱 Built using TypeScript for better type safety
+- 📱 Responsive and mobile-friendly design
+- ✍️ Supports content like blog ideas, product descriptions, intros, etc.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a433d903-f5e4-412c-8a7b-aed659e6b8ee) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Framework**: [React](https://reactjs.org/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **AI API**: (Optional) OpenAI API for content generation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
+```bash
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Folder Structure
 
-Follow these steps:
+ai-content-generator/
+├── public/
+│ └── favicon.svg
+├── src/
+│ ├── components/ # Reusable React components
+│ ├── pages/ # Page-level components or views
+│ ├── styles/ # Tailwind or custom CSS files
+│ ├── App.tsx # Root component
+│ ├── main.tsx # Vite app entry
+├── .env # Environment variables (e.g., API key)
+├── index.html # HTML template
+├── tailwind.config.js # Tailwind configuration
+├── tsconfig.json # TypeScript config
+├── vite.config.ts # Vite configuration
+└── README.md # Project documentation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
+---
 
-**Edit a file directly in GitHub**
+## 🧑‍💻 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+1. Clone the Repository
+git clone https://github.com/yourusername/ai-content-generator.git
+cd ai-content-generator
+---
+2. Install Dependencies
+npm install
+---
+3. Set Up Environment Variables
+If you're using OpenAI or another AI provider, create a .env file in the root and add:
+VITE_OPENAI_API_KEY=your_openai_api_key
+---
+4. Run the Development Server
+npm run dev
+---
+5. Build for Production
+npm run build
+---
+💡 Roadmap
+ Add user authentication
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ Save content history
 
-## What technologies are used for this project?
+ Export content to PDF/Markdown
 
-This project is built with:
+ Add more generation categories (emails, bios, etc.)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🤝 Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to open an issue or submit a PR.
 
-## How can I deploy this project?
+📄 License
+MIT License © Your Name
 
-Simply open [Lovable](https://lovable.dev/projects/a433d903-f5e4-412c-8a7b-aed659e6b8ee) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
